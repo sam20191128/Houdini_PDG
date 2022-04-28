@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PineTreeTrunkDead_Snow
+  m_Shader: {fileID: 4800000, guid: d9d09221179189a449fe37a0ddad2931, type: 3}
+  m_ShaderKeywords: _BASEWINDCHANNEL_B _BLENDNORMALS_ON _DEPOSITCHANNEL_G _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: af141e5d1eb55484d9f19e973aa9e908, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _DepositMask:
+        m_Texture: {fileID: 2800000, guid: 2274d831d3f99db44a1ec75a6a62788e, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 8d961c07e5665584094383581d95e88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMetallicGlossMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: c34b730acddb56c479df3870249dfcef, type: 3}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailOcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailOcclusionMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _LayerMask:
+        m_Texture: {fileID: 2800000, guid: e1f9e4b4f78e10041804ffee938870e2, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 42b5feea688928d4ab5e50f4b3ad8c69, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 9b90f87fd4161d84cbe99dbd8e9bad23, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicROcclusionGSmoothnessA:
+        m_Texture: {fileID: 2800000, guid: 9b90f87fd4161d84cbe99dbd8e9bad23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicRSmoothnessA:
+        m_Texture: {fileID: 2800000, guid: 8d961c07e5665584094383581d95e88e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 8e1e354c3d6520441a16e2c9815f363f, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoise1:
+        m_Texture: {fileID: 2800000, guid: 282028860199a5f49a51216f309f1410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _2ndNormalPower: 1
+    - _BaseWind: 2
+    - _BaseWindChannel: 2
+    - _BlendNormals: 1
+    - _BumpScale: 1
+    - _Contrast: 100
+    - _Contrast2: 20.3
+    - _Cutoff: 0.5
+    - _DepositChannel: 1
+    - _DepositContrast: 1.8
+    - _DepositLayer: 2
+    - _DepositPosition: 27.1
+    - _DepositPower: 0.9
+    - _DepositThreshold: 50
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float1: 7
+    - _Float2: 10
+    - _GlobalNoiseAmplitude: 1
+    - _GlobalNoiseAmplitude1: 2
+    - _GlobalNoisePower: 1
+    - _GlobalNoiseScale: 5
+    - _GlobalNoiseScale1: 1
+    - _GlobalNoiseSpeed: 15
+    - _GlobalNoiseSpeed1: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _InvertMask: 0
+    - _LayerChannel: 1
+    - _LayerContrast: 0
+    - _LayerMetallicPower: 0.5
+    - _LayerOcclusionPower: 1
+    - _LayerPosition: 0
+    - _LayerPower: 0.65
+    - _LayerSmoothnessPower: 1
+    - _LayerThreshold: 23.4
+    - _Metallic: 0
+    - _MetallicPower: 0.5
+    - _Mode: 0
+    - _NoiseScale: 0
+    - _NormalPower: 1
+    - _OcclusionPower: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PosContrast: 10
+    - _Position: 7
+    - _SeeVertexColor: 0
+    - _SeeVertexColor1: 0
+    - _SmoothnessPower: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Tiling: 0.25
+    - _TrunkWindAmplitude: 0.05
+    - _TrunkWindPower: 1
+    - _UVSec: 0
+    - _UseVertexColor: 0
+    - _VertexColorChannel: 0
+    - _WindAmplitude: 1
+    - _WindBurstsPower: 10
+    - _WindBurstsScale: 1
+    - _WindBurstsSpeed: 50
+    - _WindDebugView: 0
+    - _WindMultiplier: 0
+    - _WindMultiplier1: 0
+    - _WindPosContrast: 7
+    - _WindPosition: 10
+    - _WindPower: 0.01
+    - _WindSpeed: 1
+    - _WindTrunkContrast: 0
+    - _WindTrunkPosition: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _2ndColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
